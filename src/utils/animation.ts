@@ -1,8 +1,6 @@
-import { animate } from "framer-motion";
-
 export const slideUp = (delay: number) => {
     return {
-        intitial: {
+        initial: {
             y: 50,
             opacity: 0,
         },
