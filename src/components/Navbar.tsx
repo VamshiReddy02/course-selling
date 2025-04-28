@@ -17,7 +17,7 @@ const Navbar = () => {
                     NavbarData.map((link) => {
                         return (
                             <li key={link.id}>
-                                <a className="hover:text-[#fdcd2d] uppercase text-sm md:text-base" href={link.link}>{link.title}</a>
+                                <a className="hover:text-[#fdcd2d] uppercase text-sm xl:text-base" href={link.link}>{link.title}</a>
                             </li>
                         );
                     })
@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         {/* Button section */}
         <div>
-            <button className="primary-btn">Request for Quotes</button>
+            <button className="primary-btn">Request For Quotes</button>
         </div>
     </div>
 
