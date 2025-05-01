@@ -1,3 +1,4 @@
+import Banner from "./components/Banner"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <Banner />
     </main>
   )
 }
