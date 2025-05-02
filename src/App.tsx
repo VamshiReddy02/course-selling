@@ -1,6 +1,7 @@
 import Banner from "./components/Banner"
 import Cards from "./components/Cards"
 import Hero from "./components/Hero"
+import LearningPath from "./components/LearningPath"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
 
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Banner />
       <Cards />
+      <LearningPath />
     </main>
   )
 }
